@@ -22,7 +22,7 @@ int main ()
     }
     else
 {
-    printf("Co it nhat hai so bang nhau");
+    printf("Ca ba so bang nhau");
 }
 return 0;
 }
