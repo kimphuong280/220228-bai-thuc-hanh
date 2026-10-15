@@ -2,17 +2,15 @@
 #include <string.h>
 int main()
 {
-  int a;
-  printf("nhap so:");
-  scanf("%d",&a);
+  int a=6;
   if(a%2==0)
   {
-    printf("\n la so chan");
+    printf("\n CHAN");
     
   }
   else
   {
-    printf("\n la so le");
+    printf("\n LE");
   }
   return 0;
 }
