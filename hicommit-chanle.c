@@ -1,16 +1,16 @@
 #include <stdio.h>
-#include <string.h>
 int main()
 {
-  int a=6;
-  if(a%2==0)
+  int n=2;
+  scanf("%d",&n);
+  if (n%2==0)
   {
-    printf("\n CHAN");
+    printf("CHAN");
     
   }
   else
   {
-    printf("\n LE");
+    printf("LE");
   }
   return 0;
 }
