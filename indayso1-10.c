@@ -10,6 +10,7 @@ int main()
 		i=i+1;
 	}
 	//in gia tri tu 10 den 1//
+	printf("\n");
 	i=10;
 	while(i>=1)
 	{
