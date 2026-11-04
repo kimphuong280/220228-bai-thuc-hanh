@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+  int n,i=2,uoc=0;//• Là số tự nhiên lớn hơn 1.Chỉ có đúng hai ước dương phân biệt là 1 và chính nó.
+  printf("Nhap N:");
+  scanf("%d",&n);
+  while(n>i)
+    {
+      if(n%i==0)
+      {
+        uoc++;//so lan tim thay uoc cua n (tu 2 den n-1) 
+      }
+      i++;
+    }
+  if(n>1 && uoc==0)//ko tim thay uoc nao khac 1 va 9 no nen la snt
+  {
+    printf("%d la so nguyen to",n);
+  }
+  else
+  {
+    printf("%d ko la so nguyen to",n);
+  }
+  return 0;
+}
