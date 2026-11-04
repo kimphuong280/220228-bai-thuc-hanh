@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+  int i=1,n,t=1;
+  printf("Nhap N:");
+  scanf("%d",&n);
+  while(i<=n)
+    {
+      t=t*i;
+      i++;
+    }
+  printf("%d",t);// hoac printf("Giai thua cua %d laf:%d",n,t);
+  return 0;
+}
+  
